@@ -1,0 +1,76 @@
+body{
+    background-color: aquamarine;
+    border: darkgreen 5px solid;
+    padding: 10px;
+    margin: 20px;
+    padding-bottom: 40px;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+
+}
+.bg-text{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    flex:1;
+    padding: 20px;
+    text-align: center;
+    }
+
+.daycare-name{
+    font-size: xxx-large;
+    font-family: "Lucida Handwriting", "Courier New", cursive;
+    color: brown;
+}
+#address{
+    text-align:left;
+}
+nav{
+    display: block;
+    background-color: lightgrey;
+}
+#children{
+    float: right;
+}
+video{
+    float: left;
+    padding: 20px;
+}
+
+label{
+    display: block;
+}
+input, select, textarea{
+    display: block;
+    width: 100%;
+    background-color: lightgrey;
+    border: solid 1px;
+    resize: vertical;
+}
+textarea{
+    min-height: 200px;
+    width: 300px
+}
+form{
+    display: flex;
+    justify-content: space-evenly;
+}
+#contactTitle{
+    text-align: center;
+}
+input[type=submit]{
+    background-color: blue;
+    color: white;
+}
+#contactInfo{
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1.5;
+}

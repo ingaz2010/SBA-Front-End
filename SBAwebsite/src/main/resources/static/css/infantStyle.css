@@ -1,0 +1,44 @@
+body{
+    background-color: mediumpurple;
+    border: purple 5px solid;
+    padding: 10px;
+    margin: 20px;
+    padding-bottom: 40px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+
+}
+.bg-text{
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    flex:1.5;
+    font-size: large;
+    padding: 20px;
+    text-align: center;
+}
+
+.daycare-name{
+    font-size: xxx-large;
+    font-family: "Lucida Handwriting";
+    color: brown;
+}
+#address{
+    text-align:left;
+}
+nav{
+    display: block;
+    background-color: lightgrey;
+}
+button{
+    background-color: darkblue;
+    color:white;
+    display: block;
+    margin: 0 auto;
+}
